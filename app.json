@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "miniproject",
-    "slug": "miniproject",
+    "name": "squidreactnotes",
+    "slug": "squidreactnotes",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/iconr.png",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./assets/splashreact.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -20,8 +20,10 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.squid.reactnotes",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/reactn-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
